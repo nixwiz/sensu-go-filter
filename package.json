@@ -1,0 +1,25 @@
+{
+    "name": "sensu-go-sample-filter",
+    "version": "0.1.0",
+    "description": "Sensu Go Events Sample Filter",
+    "main": "lib/sample_filter.js",
+    "repository": "git@github.com:sensu/sensu-go-filter.git",
+    "author": "Change Me <change.me@change.me>",
+    "license": "MIT",
+    "directories": {
+        "lib": "lib",
+        "test": "spec"
+    },
+    "dependencies": {
+        "jasmine": "^3.4.0"
+    },
+    "devDependencies": {
+        "karma": "^4.1.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-cli": "^2.0.0",
+        "karma-jasmine": "^2.0.1"
+    },
+    "scripts": {
+        "test": "karma start karma.conf.js --single-run"
+    }
+}
