@@ -1,6 +1,6 @@
 # Continuous Integration and Deployment
 
-This template repository includes a sample JS filter function, including a sample test setup using karma and the files necessary to run tests and deploy with [Travis CI](1).
+This template repository includes a sample JS filter function, including a sample test setup using [Karma](6) and the files necessary to run tests and deploy with [Travis CI](1).
 
 To see the two test cases found in spec/sample_filter.js ran successfully against the filter in lib/sample_filter.js, run the following:
 
@@ -43,3 +43,4 @@ After the command above completes successfully, it will add the secure env varia
 [3]: https://github.com/travis-ci/travis.rb
 [4]: https://github.com/nixwiz/sensu-go-fatigue-check-filter/blob/master/spec/fatigue_check.js
 [5]: https://github.com/portertech/sensu-severity-filter/blob/master/spec/has_severity.js
+[6]: https://karma-runner.github.io/
